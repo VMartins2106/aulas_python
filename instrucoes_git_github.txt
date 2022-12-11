@@ -31,3 +31,10 @@ prepara o add e o commit e usa
 
 -> git push origin nova_branch -> assim insere na nova branch 
 
+----------------------------------------------------------------
+
+JUSTANDO AS BRANCHS:
+
+-> git checkout main -> para volar a main
+
+-> git merge nova_branch -> junta a nova_branch à main
