@@ -1,0 +1,20 @@
+curso="Curso de Python"
+# A STRING NADA MAIS É QUE A ORGANIZAÇÃO DOS CARACTERES EM UMA ORDEM, ENTÃO
+# TAMBÉM PODEMOS REFERENCIAR A POSIÇÃO DESEJADA
+
+
+print(curso[0]) # -> IRÁ IMPRIMIR A PRIMEIRA POSIÇÃO DA STRING EM CURSO
+print(curso[0:5]) # -> IRÁ IMPRIMIR DA POSIÇÃO 1 ATÉ A 5
+""" print("Tamanho: " + str(len(curso))) -> 'LEN' IRÁ INFORMAR O COMPRIMENTO DA STRING EM QUESTÃO, 
+PORÉM RETORNA EM INT """
+print(curso.strip()) # -> 'strip()' RETIRA ESPAÇOS ADICIONAIS
+print(curso.lower()) # -> TRANSFORMA TUDO EM MINÚSCULO
+print(curso.upper()) # -> TRANSFORMA TUDO EM MAIÚSCULO
+# UPPER/LOWER PODEM SER COMBINADOS COM O STRIP()
+""" print(curso.replace("Python", "C#")) -> TRANSFORMA UMA PARTE, OU TUDO, DA STRING POR OUTRO, INFORMADO
+POR VOCÊ MESMO, SEPARANDO-OS POR VIRGULA """
+""" print(curso.split(" ")) -> CORTA ONDE ACHAR O QUE FOR DETERMINADO, NO CASO, O ESPAÇO
+APÓS O CORTE, RETORNA UM LIST, POIS SEPARA ONDE ENCONTRAR O ESPAÇO PODENDO SER ARMAZENADO E REFERENCIADO,
+CONFORME EXEMPLO: (neste caso o array tem até 3 posições: 0,1,2)"""
+ate_o_espaco=curso.split(" ")
+print(ate_o_espaco[2]) 

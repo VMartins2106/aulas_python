@@ -1,0 +1,17 @@
+{
+    "nome": "Victor",
+    "time": "bodybuilder",
+    "vivo": "True",
+    "energia": "100",
+    "mochila": [
+        "creatina", 
+        "whey", 
+        "albumina", 
+        "pre-treino"
+    ],
+    "utilitarios":[
+        {"tipo": "crescimento", "genetica": 80},
+        {"tipo": "emagrecimento", "genetica": 50},
+        {"tipo": "ectomorfo", "genetica": 90}
+    ]
+}
